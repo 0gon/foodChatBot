@@ -40,7 +40,7 @@
 
 준비물
 
-** 설치 경로와 파일은 References 참조
+** 설치 링크와 파일은 References 참조
 - tomcat9.0 설치
 - RDBM or MySQL
 - DB 파일
