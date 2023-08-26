@@ -139,7 +139,7 @@
    <tbody>
     <ul>
       <li> Part : </li>
-      <li>📫 Email address : **이메일 칸**</li>
+      <li>📫 Email address : **sarazzang05@gmail.com**</li>
       <li>[GitHub](https://github.com/LeeSara4) </li>
     </ul>
   </tbody>
