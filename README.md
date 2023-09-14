@@ -1,5 +1,11 @@
-<h1>Title : DUNGS(Dedelicacy User Needs Guide Service)</h1>
+<h1>Title : DUNGS</h1>
+(Dedelicacy User Needs Guide Service)
 <h2>SubTitle : foodChatBot</h2>
+
+### 기획
+
+
+***
 
 
 <h3>Summary</h3>
@@ -12,7 +18,7 @@
 
 ***
 
-<h3>프로젝트 설명</h3>
+<h3>Configuration</h3>
 <h4> 알고리즘 구성 </h4>
 
 ##### AI 구조
@@ -24,14 +30,34 @@
 <img src = https://github.com/0gon/foodChatBot/assets/134483514/b3f38e45-23ce-4d43-8c37-578269bbcfe0>
 
 
+#### 자연어 처리 방식
+입력 된 문장 : 문장을 형태소로 나눕니다.
+
+![image](https://github.com/KsW96/FoodChatBot_Repo/assets/134483514/bfdc70c4-6fe3-4dbc-bbd7-ee1fb8eadd1f)
+
+1. 문장에 의미가 없는 단어 또는 형태소를 구분 하고 예외처리
+2. 부정적인 단어 List를 생성 후 저장하고 발생 시 상황 처리
+3. 정제된 단어들의 List를 통해 문장에 대한 분석과 처리
+   
+
 ***
 
+
+## AI 학습 방식
+![image](https://github.com/KsW96/FoodChatBot_Repo/assets/134483514/b6e40e4c-6c78-424e-8915-09474e331196)
 
 <h3>Web Page</h3>
 <img src = "https://github.com/0gon/foodChatBot/assets/134483514/2953793f-0fcc-47c6-92d4-98c9a7ec8d48">
 
 <img src = "https://github.com/0gon/foodChatBot/assets/134483514/dc967312-b429-46fc-8324-3730b381a2e0">
 
+***
+
+### 모르는 단어 입력 시
+
+![image](https://github.com/KsW96/FoodChatBot_Repo/assets/134483514/5b3c9f2a-0e39-444b-82bb-f291b2ac79f7)
+
+![image](https://github.com/KsW96/FoodChatBot_Repo/assets/134483514/cf1e1580-ddf3-4028-aa12-7f2b4b60c5d7)
 
 ***
 
@@ -40,7 +66,7 @@
 
 준비물
 
-** 설치 링크와 파일은 References 참조
+** 설치 경로와 파일은 References 참조
 - tomcat9.0 설치
 - RDBM or MySQL
 - DB 파일
@@ -56,7 +82,6 @@
 
 
 ***
-
 
 <h3>Stack</h3>
 <div align=left> 
@@ -85,13 +110,11 @@
 
 ***
 
-
 <h3>Test</h3>
 테스트랑 코드 구성 부분은 아래쪽에 따로 추가해서 보여줘도
 
 
 ***
-
 
 <h3>특징</h3>
 <ul>
@@ -116,7 +139,6 @@
 <thead>김성우 </thead>
   <tbody>
     <ul>
-      <li> Part : NLP </li>
       <li>📫 Email address : **ghkfzha1@gmail.com**</li>
       <li>[GitHub](https://github.com/KsW96) </li>
     </ul>
@@ -127,8 +149,6 @@
 <thead>김영곤 </thead>
    <tbody>
     <ul>
-      <li> Part : </li>
-      <li>📫 Email address : **이메일 칸**</li>
       <li>[GitHub](https://github.com/0gon)</li>
     </ul>
   </tbody>
@@ -138,8 +158,6 @@
 <thead>이사라 </thead>
    <tbody>
     <ul>
-      <li> Part : </li>
-      <li>📫 Email address : **sarazzang05@gmail.com**</li>
       <li>[GitHub](https://github.com/LeeSara4) </li>
     </ul>
   </tbody>
@@ -151,9 +169,11 @@
 
 
 ### Collaborate
+
 ##### GitURL = [DungsMall](https://github.com/0gon/DungsMall)
 
 ***
+
 
 ### References
 
